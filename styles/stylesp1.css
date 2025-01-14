@@ -1,0 +1,66 @@
+/* Hero Section */
+.hero-section {
+    background-color: #F7F8FA;
+    padding: 50px 20px;
+    color: #2C3E50;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #34495E;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    color: #7F8C8D;
+}
+
+/* Botones personalizados */
+.btn-custom {
+    background-color: #3498DB;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #2980B9;
+}
+
+/* Card Deck */
+.card-deck .card {
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-deck .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: #ECF0F1;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #34495E;
+}
+
+
